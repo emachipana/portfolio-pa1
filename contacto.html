@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+  <title>Contacto</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div>
+      <img src="img/logo.png" alt="Logo">
+    </div>
+    <ul>
+      <li><a class="nav-item" href="index.html">Inicio</a></li>
+      <li><a class="nav-item" href="blog.html">Blog</a></li>
+      <li><a class="nav-item" href="proyectos.html">Proyectos</a></li>
+      <li><a class="nav-item" href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <main class="page-content">
+    <header class="page-heading">
+      <p class="eyebrow">Hablemos</p>
+      <h1>Contacto</h1>
+      <p>¿Tienes una pregunta o una idea? Déjame un mensaje.</p>
+    </header>
+    <form class="contact-form">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+      <label for="correo">Correo electrónico</label>
+      <input id="correo" name="correo" type="email" placeholder="tunombre@correo.com" required>
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+      <button class="button" type="submit">Enviar mensaje <span aria-hidden="true">&#8594;</span></button>
+    </form>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
