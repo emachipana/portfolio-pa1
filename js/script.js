@@ -9,13 +9,4 @@ document.addEventListener("DOMContentLoaded", function() {
       item.classList.add("item-active");
     }
   });
-
-  const contactForm = document.querySelector(".contact-form");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function(event) {
-      event.preventDefault();
-      contactForm.querySelector(".form-note").textContent = "Gracias por tu mensaje. Este formulario es una demostración y no lo envía todavía.";
-      contactForm.reset();
-    });
-  }
 });
